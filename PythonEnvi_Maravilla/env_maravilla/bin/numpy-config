@@ -1,6 +1,0 @@
-#!/content/drive/MyDrive/IS110_BPerformance_Maravilla/PythonEnvi_Maravilla/env_maravilla/bin/python
-import sys
-from numpy._configtool import main
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())
